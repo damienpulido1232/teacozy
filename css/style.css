@@ -1,0 +1,84 @@
+html, body{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+
+#headercontainer {
+  display: inline-flex;
+  margin-left: 10px;
+  margin-right: 50px;
+  width: 100%;
+  height: 69px;
+  border-bottom: 5px solid seashell;
+  justify-content: space-between;
+}
+
+#navheader {
+  display: inline-flex;
+  text-align: right;
+  color: green;
+  position:
+}
+
+#navheader li {
+  list-style: none;
+  display: inline-block;
+  text-decoration: underline;
+  text-align: right;
+}
+
+#missioncontainer {
+  background-image: url(".\images\img-mission-background.jpg");
+  margin-left: 25px;
+  margin-right: 25px;
+  height: 700px;
+  display: flex;
+  border: 5px solid red;
+
+}
+
+#mission {
+  background-color: black;
+  border: 3px solid yellow;
+  text-align: center;
+  align-content: center;
+}
+
+#teaofmonth {
+  text-align: center;
+  width: auto;
+  border: 5px solid purple;
+}
+
+
+#imagecontainer {
+  height: auto;
+  width: auto;
+  border: 5px solid green;
+  display: inline-flex;
+
+}
+
+#images {
+  height: 200px;
+  width: 300px;
+  justify-content: space-between;
+  display: inline-block;
+  border: 5px dotted red;
+
+}
+
+#locationscontainer {
+  border: 5px solid blue;
+  display: flex;
+  flex-direction: row;
+}
