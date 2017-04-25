@@ -25,8 +25,6 @@ html, body{
 #navheader {
   display: inline-flex;
   text-align: right;
-  color: green;
-  position:
 }
 
 #navheader li {
@@ -37,13 +35,13 @@ html, body{
 }
 
 #missioncontainer {
-  background-image: url(".\images\img-mission-background.jpg");
+  background-image: url("C:/Users/damie/Documents/GitHub/teacozy/images/img-mission-background.jpg");
+  background-size: auto;
   margin-left: 25px;
   margin-right: 25px;
   height: 700px;
   display: flex;
   border: 5px solid red;
-
 }
 
 #mission {
@@ -51,12 +49,17 @@ html, body{
   border: 3px solid yellow;
   text-align: center;
   align-content: center;
+  height: 120px;
+  width: 100%;
+  align-self: center;
 }
 
 #teaofmonth {
   text-align: center;
   width: auto;
   border: 5px solid purple;
+  color: seashell;
+  opacity: 0.9;
 }
 
 
@@ -65,20 +68,65 @@ html, body{
   width: auto;
   border: 5px solid green;
   display: inline-flex;
-
-}
-
-#images {
-  height: 200px;
-  width: 300px;
   justify-content: space-between;
-  display: inline-block;
-  border: 5px dotted red;
-
+  flex-wrap: wrap;
 }
+
+.images {
+  height: auto;
+  width: auto;
+  border: 5px solid pink;
+  display: inline-flex;
+}
+
 
 #locationscontainer {
+  margin-left: 25px;
+  margin-right: 25px;
+  justify-content: space-between;
   border: 5px solid blue;
   display: flex;
-  flex-direction: row;
+  background-image: url("C:/Users/damie/Documents/GitHub/teacozy/images/img-locations-background.jpg");
+  height: 500px;
+  width: 100%;
+
+}
+
+#downtown {
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  opacity: 1;
+  align-self: center;
+  text-align: center;
+  color: seashell;
+  opacity: 0.9;
+}
+
+#eastbayside {
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  opacity: 1;
+  align-self: center;
+  text-align: center;
+  color: seashell;
+  opacity: 0.9;
+}
+
+#oakdale {
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  opacity: 1;
+  align-self: center;
+  text-align: center;
+  color: seashell;
+  opacity: 0.9;
+}
+
+#footer {
+  text-align: center;
+  color: seashell;
+  opacity: 0.9;
 }
